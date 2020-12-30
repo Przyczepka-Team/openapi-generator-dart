@@ -11,7 +11,9 @@ dependencies:
   source_gen: ^0.9.10+1
   path: ^1.7.0
   openapi_generator_annotations:
-    path: ../openapi-generator-annotations
+    git:
+      url: git@github.com:Przyczepka-Team/openapi-generator-dart.git
+      path: openapi-generator-annotations
   analyzer: '>=0.40.0 <=0.41.1'
   openapi_generator_cli: ^2.0.0
 
