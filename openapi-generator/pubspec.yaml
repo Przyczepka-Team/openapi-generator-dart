@@ -10,7 +10,10 @@ dependencies:
   build: '>=0.12.6 <2.0.0'
   source_gen: ^0.9.10+1
   path: ^1.8.0-nullsafety.3
-  openapi_generator_annotations: ^3.0.0-nullsafety.1
+  openapi_generator_annotations:
+    git:
+      url: git@github.com:Przyczepka-Team/openapi-generator-dart.git
+      path: openapi-generator-annotations
   analyzer: '>=0.40.6 <0.42.0'
   openapi_generator_cli: ^3.0.0-nullsafety.1
 
